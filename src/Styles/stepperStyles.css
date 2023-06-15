@@ -1,0 +1,73 @@
+/**********Styles Mantine Stepper*******************/
+.mantine-Stepper-root {
+  width: 100%;
+  max-width: 867px;
+}
+
+.mantine-Stepper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mantine-Stepper-content {
+  padding-top: 30px;
+}
+
+.mantine-8koqwb[data-progress] {
+  border-color: #d1df0c;
+}
+
+.mantine-Stepper-stepCompletedIcon {
+  background-color: #d1df0c;
+}
+
+.mantine-8koqwb[data-completed] {
+  border-color: #d1df0c;
+}
+
+.mantine-Stepper-separatorActive {
+  background-color: #d1df0c;
+}
+
+.mantine-Stepper-stepLabel {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.mantine-Stepper-stepDescription {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #868e96;
+}
+
+.mantine-Stepper-stepIcon {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  color: #495057;
+}
+
+@media (max-width: 576px) {
+  .mantine-Stepper-content {
+    width: 100vw;
+    height: auto;
+  }
+
+  .mantine-Stepper-root {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .mantine-Stepper-separator {
+    width: 2px;
+  }
+}

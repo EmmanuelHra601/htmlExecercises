@@ -1,13 +1,221 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: archia;
+  src: url("./fonts/archia-regular-webfont.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Permanent+Marker&display=swap");
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
 }
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.loginContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.headerLogin {
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+}
+
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 32px;
+  height: 100vh;
+}
+
+.branding-caskarapp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 128.47px;
+  height: 30.12px;
+}
+
+.bodyRight {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 345px;
+  height: auto;
+}
+
+.titleDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 345px;
+  height: auto;
+}
+
+.textIniciaSesion {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: greycliff-cf, sans-serif;
+}
+
+.textindicaciones {
+  width: 100%;
+  height: auto;
+  font-family: greycliff-cf, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.groupButton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 345px;
+  height: auto;
+}
+
+.divFormLogin {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: auto;
+}
+
+.textCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: 11px;
+  font-family: greycliff-cf, sans-serif;
+  line-height: 11px;
+}
+
+.divNoCount {
+  width: 100%;
+  max-width: 345px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.textNoCount {
+  font-family: greycliff-cf, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.BotonGoogle {
+  width: 100%;
+  max-width: 345px;
+  height: 42px;
+  color: white;
+  background-color: #25262b;
+}
+
+.BotonGoogle:hover {
+  background-color: #1a1b1e;
+}
+
+.InputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.InputLabel {
+  font-family: "Archia", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.InputCorreo,
+.InputContraseña {
+  width: 100%;
+}
+
+.Cuenta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 23px;
+  width: 100%;
+}
+
+.NoTienesCuenta {
+  font-size: 16px;
+  font-family: greycliff-cf, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #5c5f66;
+}
+
+.LinkNoTienesCuenta {
+  display: inline-block;
+  color: #101113;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  line-height: 22px;
+  border-bottom: 2px dashed #dbf227;
+  margin-left: 4px;
+}
+
+.imageContent {
+  flex-grow: 1;
+  height: 100vh;
+  background: url("./images/cancha.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .contentForm {
+    width: 100%;
+    height: auto;
+  }
+}
+
+

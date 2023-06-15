@@ -1,0 +1,45 @@
+/*Style label input type text*/
+.mantine-TextInput-label {
+  font-family: "Archia", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+/*Style lable selecet*/
+.mantine-NativeSelect-label {
+  font-family: "Archia", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+/*Style text input number*/
+.mantine-Input-input {
+  font-family: archia;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*Style text select*/
+.mantine-NativeSelect-input {
+  font-family: archia;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/*Style label number*/
+.mantine-NumberInput-label {
+  font-family: archia;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #212529;
+}
